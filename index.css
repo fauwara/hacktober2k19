@@ -1,0 +1,57 @@
+@font-face{
+    src: url("Moon2.0-Regular.otf");
+    font-family: moon;
+}
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: moon;
+}
+.menu_bar{
+    background-color:#363636;
+    color: #f5f5f5;
+    padding: 25px;
+    letter-spacing: 2px;
+    border-bottom:#26ff60 3px solid ;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    position: fixed;
+}
+.sahyadri_menubar{
+    color: #f5f5f5;
+}
+.content{
+    text-align : end;
+    word-spacing: 35px;
+}
+#about_us{
+    word-spacing: 0px;
+}
+a.contents{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+a.announcements{
+    text-decoration: none;
+    list-style-type: none;
+}
+#main_page{
+    display:grid;
+    grid-template-columns: 18% 64% 18%;
+    margin: 4% 5% 5% 5%;
+}
+#announcement{
+    border: solid 2px #26ff60;
+    padding: 10px;
+}
+.about_us{
+    padding: 10px 40px 10px 40px;
+    border: solid 2px #26ff60;
+    margin-left: 10px;
+}
+.something{
+    padding: 5%;
+    border: #26ff60 solid 2px;
+    margin-left: 10px;
+}
