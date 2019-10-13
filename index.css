@@ -18,10 +18,11 @@
 }
 .sahyadri_menubar{
     color: #f5f5f5;
+    padding: 10px;
 }
 .content{
     text-align : end;
-    word-spacing: 35px;
+    word-spacing: 40px;
 }
 #about_us{
     word-spacing: 0px;
@@ -34,28 +35,63 @@ a.announcements{
     text-decoration: none;
     list-style-type: none;
     color: #26ff60;
-    border: 3px solid #363636;
+    padding: 10px;
 }
 #main_page{
     display:grid;
     grid-template-columns: 30% 70% ;
-    margin: 1% 10% 5% 10%;
+    margin: 2% 10% 5% 10%;
 }
 #announcement{
-    border: solid 3px #26ff60;
     padding: 10px;
+    letter-spacing: 1px;
+    border: 3px solid #363636;
+    text-align: center;
 }
-.Overview{
-    padding: 20px 50px 20px 50px;
+#Overview{
+    padding: 30px 50px 20px 50px;
     border: solid 3px #26ff60;
     margin-left: 10px;
     color: #363636;
     letter-spacing: 1px;
 }
-.vision{
+#vision{
     padding: 20px 50px 20px 50px;
     margin: 10px 0px 0px 10px;
     color: #f5f5f5;
     letter-spacing: 1px;
     background-color: #363636
+}
+.dropbtn {
+    background-color: #363636;
+    color: #f5f5f5;
+    padding:11px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: #363636;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f5f5f5;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #26ff60; color:#363636;}
+
+.sidehead{
+    background-color: #26ff60;
 }
